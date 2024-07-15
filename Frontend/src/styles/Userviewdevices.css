@@ -1,0 +1,91 @@
+/* CSS for View Devices Component */
+
+.device-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    
+  }
+  
+  .device-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .device-search {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .device-select {
+    width: 200px;
+    margin-right: 10px;
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  .device-input {
+    width: 300px;
+    font-size: 16px;
+    padding: 8px;
+  }
+  
+  .device-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    border: none;
+    color: #fff;
+  }
+  
+  .device-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .device-alert {
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #dc3545;
+    color: #fff;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .device-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .device-table th, .device-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .device-table th {
+    background-color: #f0f0f0;
+  }
+  
+  .device-table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .device-table tbody tr:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .device-action {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn-sm {
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  

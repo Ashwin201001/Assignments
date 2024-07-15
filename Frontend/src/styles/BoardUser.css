@@ -1,0 +1,32 @@
+/* CSS for user-dashboard-container */
+.user-dashboard-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* CSS for user-dashboard-header */
+.user-dashboard-header {
+  background-color:rgb(132, 194, 215);
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-dashboard-header h2 {
+  margin-bottom: 20px;
+}
+
+/* CSS for dashboard-form-group */
+.dashboard-form-group {
+  margin-bottom: 20px;
+}
+
+/* CSS for dashboard-form-control */
+.dashboard-form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
